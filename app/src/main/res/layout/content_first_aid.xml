@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@color/md_grey_200"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".FrmFirstAidActivity"
+    tools:showIn="@layout/activity_main">
+    <RelativeLayout
+        android:visibility="gone"
+       android:id="@+id/relayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:scrollbars="vertical"
+            android:orientation="vertical"
+            android:id="@+id/rv_first_aid_list"
+            tools:listitem = "@layout/rv_list_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:id="@+id/tv_no_data"
+        android:layout_gravity="center"
+        android:text="No Result Data."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</FrameLayout>
+

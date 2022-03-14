@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fabFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layoutSearchHospital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="120dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true" >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search Hospital"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"
+                android:paddingRight="12dp"
+                android:paddingLeft="12dp"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp" />
+        </com.google.android.material.card.MaterialCardView>
+
+       <!-- <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_settings_black_24dp"
+            app:backgroundTint="@android:color/holo_green_light"
+            app:fabSize="mini" />-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="170dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="10dp"
+            app:cardUseCompatPadding="true" >
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set Alarm Time"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"
+                android:paddingRight="12dp"
+                android:paddingLeft="12dp"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+      <!--  <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_create_black_24dp"
+            app:backgroundTint="@android:color/holo_green_dark"
+            app:fabSize="mini" />-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutNewFeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="220dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="@dimen/cardCornerRadius"
+            app:cardElevation="@dimen/cardElevation"
+            app:cardUseCompatPadding="true" >
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Add New Feed"
+                android:textStyle="bold"
+                android:paddingRight="@dimen/cardview_horizontal_padding"
+                android:paddingLeft="@dimen/cardview_horizontal_padding"
+                android:paddingBottom="@dimen/cardview_vertical_padding"
+                android:paddingTop="@dimen/cardview_vertical_padding" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+     <!--   <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_create_new_folder_black_24dp"
+            app:backgroundTint="@android:color/holo_green_dark"
+            app:fabSize="mini" />-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutFabSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:src="@drawable/ic_add_circle_black_24dp"
+            app:fabSize="normal" /><!-- app:backgroundTint="?attr/colorPrimary"-->
+
+    </LinearLayout>
+    <!--android:src="@drawable/ic_close_black_24dp"-->
+</FrameLayout>

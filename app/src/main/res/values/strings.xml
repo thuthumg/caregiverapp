@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CareGiver</string>
+    <!--<string name="NOTIFICATION_CHANNEL_ID">10001</string>-->
+    <string name="map_key" translatable="false">
+        AIzaSyCVkUpuLG5e-cHiB-JW57kWohRbXY3Q378
+       </string><!-- AIzaSyCMVtPGaMMCMBMwDyyFqIkj7Y9oVGh9cLE-->
+</resources>

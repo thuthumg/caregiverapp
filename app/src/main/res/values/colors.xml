@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <!--  	(255,119,0)
+    #ff8419 	(255,132,25)
+    #ff9232 	(255,146,50)
+    #ff9f4c 	(255,159,76)
+    #ffad66-->
+    <!--
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>-->
+
+    <color name="colorPrimary">#9de3d0</color>
+    <color name="colorPrimaryDark">#05dfd7</color>
+    <color name="colorAccent">#9de3d0</color>
+
+    <color name="danger_color">#f50057</color>
+    <color name="category_name_color">#353d44</color>
+
+    <!--grey-->
+
+    <color name="md_grey_50">#fafafa</color>
+    <color name="md_grey_100">#F5F5F5</color>
+    <color name="md_grey_200">#EEEEEE</color>
+    <color name="md_grey_300">#E0E0E0</color>
+    <color name="md_grey_400">#BDBDBD</color>
+    <color name="md_grey_500">#9E9E9E</color>
+    <color name="md_grey_600">#757575</color>
+    <color name="md_grey_700">#616161</color>
+    <color name="md_grey_800">#424242</color>
+    <color name="md_grey_900">#212121</color>
+    <color name="md_black_1000">#000000</color>
+    <color name="md_white_1000">#ffffff</color>
+    <color name="flat_red">#c0392b</color>
+    <color name="flat_green">#27ae60</color>
+
+    <!-- 1st Gradient color -->
+    <color name="colorPurple_A400">#D500F9</color>
+    <color name="colorPurple_900">#4A148C</color>
+
+    <color name="base">#e6e9eb</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="blue">#3B5998</color>
+    <color name="dark_blue">#0000FF</color>
+    <color name="grey">#949494</color>
+    <color name="light_grey">#dcdcdc</color>
+    <color name="red">#eb1c38</color>
+    <color name="red_pale">#ee7565</color>
+    <color name="dark_grey">#434343</color>
+    <color name="green_selected">#006611</color>
+    <color name="green">#1ba652</color>
+    <color name="dark_green">#1a8263</color>
+    <color name="green_base">#00a651</color>
+    <color name="orange">#fc6900</color>
+    <color name="light_grey2">#d7dde0</color>
+    <color name="row_odd">#e6e9eb</color>
+    <color name="row_even">#bfe9d3</color>
+    <color name="row_selected">#434343</color>
+
+
+
+    <color name="light_font">#FBFBFB</color>
+    <color name="grey_font">#ff9e9e9e</color>
+    <color name="text_shadow">#7F000000</color>
+    <color name="text_shadow_white">#FFFFFF</color>
+    <color name="mtrl_textinput_default_box_stroke_color">#fff</color>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".FrmFirstAidActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+         <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/md_grey_200"
+
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+            <LinearLayout
+                android:id="@+id/search_linear"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+               <!-- android:actionBarWidgetTheme-->
+              <androidx.appcompat.widget.SearchView
+
+                    android:id="@+id/action_search"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                   android:background="@drawable/search_round_editext"
+                    app:defaultQueryHint="Search....."
+                    app:iconifiedByDefault="false" />
+                <!-- android:focusedByDefault="true"-->
+                   <!--   <androidx.appcompat.widget.SearchView
+
+                           android:background="@drawable/search_round_editext"
+                            android:imeOptions="actionSearch"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:id="@+id/action_search"
+                           android:queryHint="Search Here"
+                           android:iconifiedByDefault="false"/>--><!-- android:queryHint="Search Here"-->
+                <ImageView
+
+                    android:layout_gravity="center"
+                    android:id="@+id/btn_search"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/ic_search_black_24dp"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_first_aid" />
+    <include layout="@layout/layout_fab_submenu"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
